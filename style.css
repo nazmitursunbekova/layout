@@ -10,3 +10,91 @@ body {
   opacity: 1;
   background-color: white;
 }
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding-right: 80%;
+  margin: -20%;
+}
+
+header {
+  font-family: Inter, sans-serif;
+  margin: 70px auto;
+  max-width: 75%;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-aling-items: center;
+  align-items: center;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+header .logo {
+  max-width: 250px;
+}
+header .right_header {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+header.top_menu {
+  list-style-type: none;
+}
+header .top_menu li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+header .top_menu li a {
+  display: block;
+  text-decoration: none;
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+header .btns {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+header .btns > a {
+  border-radius: 0px;
+
+  text-decoration: none;
+  -webkit-transition: color 0.4s ease;
+  -o-transition: color 0.4s ease;
+  transition: color 0.4s ease;
+}
+header .btns .btn_light {
+  color: #0070a0;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  margin-right: 5px;
+}
+header .btns .btn_light:hover {
+  background-color: #0070a0;
+}
+header .btns .btn_green {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+  padding: 10px;
+  background-color: #0070a0;
+}
+header .btns .btn_green:hover {
+  background-color: #0070a0;
+}
+
+header .top_menu li a:hover {
+  color: #0070a0;
+}

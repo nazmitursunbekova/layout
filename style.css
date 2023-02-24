@@ -37,7 +37,7 @@ header .right_header {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  -ms-align-items: center;
+
   align-items: center;
 }
 header.top_menu {

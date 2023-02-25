@@ -17,18 +17,17 @@ body {
   padding-right: 80%;
   margin: -20%;
 }
-.header.right_header>img{
+.header.right_header > img {
   height: 37px;
-width: 106px;
-left: 50px;
-top: 20px;
-border-radius: 0px;
-
+  width: 106px;
+  left: 50px;
+  top: 20px;
+  border-radius: 0px;
 }
 header {
   font-family: Inter, sans-serif;
- 
-  margin:  50px  auto;
+
+  margin: 60px auto;
   right: 50%;
   max-width: 75%;
   display: -webkit-flex;
@@ -39,7 +38,7 @@ header {
   padding-bottom: 10px;
   justify-content: space-between;
 }
-.header>.logo{
+.header > .logo {
   max-width: 250px;
   left: 170px;
 }
@@ -48,7 +47,6 @@ header .right_header {
   display: -ms-flex;
   display: flex;
 
-
   align-items: center;
 }
 header.top_menu {
@@ -56,7 +54,6 @@ header.top_menu {
 }
 header .top_menu li {
   display: inline-block;
- 
 }
 
 header .top_menu li a {
@@ -68,9 +65,8 @@ header .top_menu li a {
   -webkit-transition: color 0.4s ease;
   -o-transition: color 0.4s ease;
   transition: color 0.4s ease;
-  margin: auto  40px ;
+  margin: auto 40px;
   left: 175px;
-
 }
 header .btns {
   display: -webkit-flex;
@@ -87,7 +83,6 @@ header .btns > a {
   -o-transition: color 0.4s ease;
   transition: color 0.4s ease;
   padding-right: 80px;
-  
 }
 header .btns .btn_light {
   color: #0070a0;
@@ -155,7 +150,6 @@ header .top_menu li a:hover {
   color: white;
   padding: 10px;
   background-color: #0070a0;
-
 }
 .bbn .btn_btn_pink:hover {
   background-color: #0070a0;
@@ -170,8 +164,6 @@ header .top_menu li a:hover {
 .bbn .btn_blue:hover {
   background-color: #0070a0;
 }
-
-
 
 /*button*/
 

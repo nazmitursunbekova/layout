@@ -28,7 +28,7 @@ border-radius: 0px;
 header {
   font-family: Inter, sans-serif;
  
-  margin:  70px  auto;
+  margin:  50px  auto;
   right: 50%;
   max-width: 75%;
   display: -webkit-flex;
@@ -48,6 +48,7 @@ header .right_header {
   display: -ms-flex;
   display: flex;
 
+
   align-items: center;
 }
 header.top_menu {
@@ -55,8 +56,7 @@ header.top_menu {
 }
 header .top_menu li {
   display: inline-block;
-  margin-right: 50px;
-  left: 180px;
+ 
 }
 
 header .top_menu li a {
@@ -122,7 +122,7 @@ header .top_menu li a:hover {
   text-align: center;
   border-right: 100%;
   position: absolute;
-  left: 20;
+  left: 40px;
   margin-top: -32%;
   font-family: Inter, sans-serif;
   padding: 20px;
@@ -155,32 +155,23 @@ header .top_menu li a:hover {
   color: white;
   padding: 10px;
   background-color: #0070a0;
-}
 
-header .header .btns .btn_light {
-  color: #0070a0;
-  font-size: 15px;
-  font-weight: 400;
-  padding: 10px;
-  margin-right: 5px;
 }
-header .btns .btn_light:hover {
+.bbn .btn_btn_pink:hover {
   background-color: #0070a0;
 }
-header .btns .btn_green {
+.bbn .btn_blue {
   font-size: 15px;
   font-weight: 400;
   color: white;
   padding: 10px;
   background-color: #0070a0;
 }
-header .btns .btn_green:hover {
+.bbn .btn_blue:hover {
   background-color: #0070a0;
 }
 
-header .bbn li a:hover {
-  color: #0070a0;
-}
+
 
 /*button*/
 

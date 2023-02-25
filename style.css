@@ -28,7 +28,7 @@ border-radius: 0px;
 header {
   font-family: Inter, sans-serif;
  
-  margin:  40px  auto;
+  margin:  70px  auto;
   right: 50%;
   max-width: 75%;
   display: -webkit-flex;
@@ -86,7 +86,7 @@ header .btns > a {
   -webkit-transition: color 0.4s ease;
   -o-transition: color 0.4s ease;
   transition: color 0.4s ease;
-  margin: 30px;
+  padding-right: 80px;
   
 }
 header .btns .btn_light {

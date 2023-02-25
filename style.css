@@ -369,23 +369,14 @@ h6 {
   max-width: 350px;
   width: 300px;
   margin-right: 35px;
-
 }
-.row_flex > .why_item >.img {
+.row_flex > .why_item > .img {
   margin: 30px 0 70px;
 }
-.why_item>.picture-1{
-  background-color:  rgba(250, 234, 115, 1);
 
-}
-.why_item>.picture-2{
-  background: rgba(204, 239, 246, 1);
-
-}
-
-.row_flex > .why_item>.picture-1>.name{
+.row_flex > .why_item > .name {
   margin: 50px 0 16px;
-  color:#1f1f1f;
+  color: #1f1f1f;
   font-size: 25px;
   font-family: Fraunces;
   font-weight: 400;

@@ -394,25 +394,20 @@ h6 {
   height: 700px;
   background-color: rgba(247, 249, 250, 1);
 }
-#free>img{
+#free > img {
   height: 479px;
   width: 481px;
   left: 625px;
   top: -39.390625px;
   border-radius: 0px;
-  
-
 }
-#free.file{
+#free.file {
   height: 534px;
   text-align: left;
   margin-left: 100px;
-
-
 }
 
-
-#free>.file h1 {
+#free > .file h1 {
   font-family: Fraunces;
   font-size: 42px;
   font-weight: 400;
@@ -421,17 +416,17 @@ h6 {
   padding-left: 30px;
   text-align: left;
 }
-#free>.file  h2 {
+#free > .file h2 {
   font-family: Fraunces;
   font-size: 42px;
   font-weight: 400;
   margin-top: 21px;
-  margin-left:30px;
+  margin-left: 30px;
   padding-left: 30px;
   text-align: left;
 }
 
-#free>.file  h3 {
+#free > .file h3 {
   font-family: Fraunces;
   font-size: 31px;
   font-weight: 400;
@@ -441,7 +436,7 @@ h6 {
   padding-left: 50px;
   text-align: left;
 }
-#free>.file text {
+#free > .file text {
   font-family: Inter, sans-serif;
   color: #1f1f1f;
   font-size: 16px;
@@ -454,7 +449,7 @@ h6 {
   max-width: 352px;
   text-align: left;
 }
-#free>.file  h4 {
+#free > .file h4 {
   display: flex;
   font-family: Fraunces;
   font-size: 31px;
@@ -466,7 +461,7 @@ h6 {
   color: #626a72;
   text-align: left;
 }
-.file  h5 {
+.file h5 {
   display: flex;
   font-family: Fraunces;
   font-size: 31px;
@@ -478,7 +473,7 @@ h6 {
   color: #626a72;
   text-align: left;
 }
-.file  h6 {
+.file h6 {
   display: flex;
   font-family: Fraunces;
   font-size: 31px;
@@ -489,8 +484,6 @@ h6 {
   padding-left: 50px;
   color: #626a72;
   text-align: left;
-
-
 }
 #column > .row_flexs {
   display: -webkit-box;

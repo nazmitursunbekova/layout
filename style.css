@@ -584,7 +584,7 @@ margin-right: 550px;;
   font-size: 18px;
   font-weight: 400;
 
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   font-family: Inter, sans-serif;
 ;
   max-width: 352px;
@@ -592,4 +592,7 @@ margin-right: 550px;;
   margin-top: 70px;
   margin-right: 90px;
 }
+.history >.img{
+  margin-left: 120px;
 
+}

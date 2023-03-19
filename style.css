@@ -387,7 +387,8 @@ h6 {
   font-family: Inter;
   font-size: 15px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
+  display: block;
 }
 #free {
   background-color: rgba(247, 249, 250, 1);

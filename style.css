@@ -140,18 +140,15 @@ header .top_menu li a:hover {
   padding: 10px;
   margin-right: 5px;
   border-radius: 0px;
-
 }
 .bbn .btn_pink {
   font-size: 15px;
   font-weight: 400;
-   background-color:#0070A0;
+  background-color: #0070a0;
   padding: 10px;
-
 }
 .bbn .btn_btn_pink:hover {
- background-color: #0070a0;
-
+  background-color: #0070a0;
 }
 .bbn .btn_blue {
   font-size: 15px;
@@ -539,7 +536,7 @@ h6 {
 #compass {
   height: 550px;
   width: 1440px;
-  background: #0070A0;
+  background: #0070a0;
 }
 #compass .history {
   left: 155px;
@@ -566,7 +563,6 @@ h6 {
 #compass > img {
   margin-top: 100px;
   margin-right: 550px;
-
 }
 .history > h1 {
   font-family: Fraunces;
@@ -578,30 +574,28 @@ h6 {
   margin-right: 30px;
   padding-right: 50px;
 }
-.history >h5{
+.history > h5 {
   font-family: Inter;
-font-size: 17px;
-font-weight: 400;
-text-align: center;
-margin-right: 200px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-right: 200px;
 }
 
 .history > text {
   font-size: 18px;
   font-weight: 400;
- display: block;
+  display: block;
   margin-bottom: 100px;
   font-family: Inter, sans-serif;
   text-align: left;
   width: 380px;
-
   margin-top: 50px;
   margin-right: 20px;
 }
-.history >.img{
+.history > .img {
   margin-left: 250px;
-  margin-top:250px ;
-
+  margin-top: 250px;
 }
 #book {
   margin-top: 120px;
@@ -618,7 +612,6 @@ margin-right: 200px;
   padding-left: 50px;
   text-align: left;
 }
-
 
 #book > text {
   text-align: left;
@@ -639,7 +632,6 @@ margin-right: 200px;
   max-width: 350px;
   width: 200px;
   margin-right: 120px;
-  
 }
 
 .paper > .play {
@@ -666,7 +658,6 @@ margin-right: 200px;
   top: 2px;
   display: flex;
   text-align: left;
-
 }
 .paper > img {
   margin-right: 100px;

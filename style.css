@@ -140,19 +140,18 @@ header .top_menu li a:hover {
   padding: 10px;
   margin-right: 5px;
   border-radius: 0px;
-}
-.bbn .btn_blue:hover {
-  background-color: #0070a0;
+
 }
 .bbn .btn_pink {
   font-size: 15px;
   font-weight: 400;
-  color: white;
+   background-color:#0070A0;
   padding: 10px;
-  background-color: #0070a0;
+
 }
 .bbn .btn_btn_pink:hover {
-  background-color: #0070a0;
+ background-color: #0070a0;
+
 }
 .bbn .btn_blue {
   font-size: 15px;
@@ -566,8 +565,8 @@ h6 {
 }
 #compass > img {
   margin-top: 100px;
+  margin-right: 550px;
 
-margin-right: 550px;;
 }
 .history > h1 {
   font-family: Fraunces;
@@ -579,22 +578,29 @@ margin-right: 550px;;
   margin-right: 30px;
   padding-right: 50px;
 }
-
+.history >h5{
+  font-family: Inter;
+font-size: 17px;
+font-weight: 400;
+text-align: center;
+margin-right: 200px;
+}
 
 .history > text {
   font-size: 18px;
   font-weight: 400;
-
+ display: block;
   margin-bottom: 100px;
   font-family: Inter, sans-serif;
-;
-  max-width: 352px;
+  text-align: left;
+  width: 380px;
 
-  margin-top: 70px;
-  margin-right: 90px;
+  margin-top: 50px;
+  margin-right: 20px;
 }
 .history >.img{
-  margin-left: 120px;
+  margin-left: 250px;
+  margin-top:250px ;
 
 }
 #book {
@@ -612,6 +618,7 @@ margin-right: 550px;;
   padding-left: 50px;
   text-align: left;
 }
+
 
 #book > text {
   text-align: left;

@@ -388,10 +388,15 @@ h6 {
 }
 #free {
   background-color: rgba(247, 249, 250, 1);
+ 
+
+
 }
-#free > img {
-  margin-top: 120px;
-  margin-left: 150px;
+#free>img{
+  margin-top: 300px;
+  margin-left: 600px;
+  justify-content: left;
+  
 }
 #free.file {
   height: 550px;

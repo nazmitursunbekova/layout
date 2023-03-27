@@ -667,3 +667,79 @@ h6 {
 .paper > img {
   margin-right: 100px;
 }
+#football {
+  height: 747px;
+  width: 1440px;
+  left: 250px;
+  top: 0px;
+  border-radius: 0px;
+  background: #f7f9fa;
+}
+#football > h1 {
+  display: flex;
+  font-family: Fraunces;
+  font-size: 42px;
+  font-weight: 400;
+  margin-top: 21px;
+  margin-left: 30px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+#football > text {
+  text-align: left;
+  display: flex;
+  margin-top: 10px;
+  margin-right: 20px;
+  padding-left: 1200px;
+  color: rgba(0, 112, 160, 1);
+}
+#football > .volleyball {
+  display: inline-block;
+  width: 350px;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+.volleyball > button {
+  color: #0070a0;
+  padding: 5px;
+  background-color: rgba(230, 247, 255, 1);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 0px;
+  margin-left: 15px;
+}
+#football > .volleyball > img {
+  height: 50%;
+  margin-right: 250px;
+}
+.volleyball > .tennis {
+  display: flex;
+  text-align: start;
+  font-family: Fraunces;
+  font-size: 25px;
+  font-weight: 400;
+  height: 32px;
+  width: 300px;
+  margin: 15px 0 16px;
+  margin-left: 10px;
+}
+
+.volleyball > .backetball {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  max-width: 400px;
+  margin-top: 50px;
+  margin-left: 10px;
+  width: 350px;
+  display: flex;
+}
+.volleyball > .data {
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-left: 10px;
+}

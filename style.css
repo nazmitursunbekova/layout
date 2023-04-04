@@ -183,6 +183,91 @@ header .top_menu li a:hover {
   left: 678px;
   top: 0px;
 }
+  header {
+    font-family: Inter, sans-serif;
+  
+    margin: 60px auto;
+    right: 50%;
+    max-width: 75%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-aling-items: center;
+    align-items: center;
+    padding-bottom: 10px;
+    justify-content: space-between;
+  }
+  .header > .logo {
+    max-width: 250px;
+    left: 170px;
+  }
+  header .right_header {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  
+    align-items: center;
+  }
+  header.top_menu {
+    list-style-type: none;
+  }
+  header .top_menu li {
+    display: inline-block;
+  }
+  
+  header .top_menu li a {
+    display: block;
+    text-decoration: none;
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    margin: auto 40px;
+    left: 175px;
+  }
+  header .btns {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+  }
+  
+  header .btns > a {
+    border-radius: 0px;
+    text-decoration: none;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    padding-right: 80px;
+  }
+  header .btns .btn_light {
+    color: #0070a0;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    margin-right: 5px;
+  }
+  header .btns .btn_light:hover {
+    background-color: #0070a0;
+  }
+  header .btns .btn_green {
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    background-color: #0070a0;
+  }
+  header .btns .btn_green:hover {
+    background-color: #0070a0;
+  }
+  
+  header .top_menu li a:hover {
+    color: #0070a0;
+  }
+
 
 #main_banner .inner_banner > h1 {
   margin-bottom: 100px;
@@ -707,10 +792,10 @@ h6 {
   font-family: Inter;
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px;
+  margin-right: 240px;
   text-align: center;
   border-radius: 0px;
-  margin-left: 15px;
+
 }
 #football > .volleyball > img {
   height: 50%;
@@ -737,9 +822,9 @@ h6 {
   margin-left: 10px;
   width: 350px;
   display: flex;
+  text-align: left;
 }
 .volleyball > .data {
-  margin-left: 40px;
+  margin-right: 230px;
   margin-top: 20px;
-  margin-left: 10px;
 }
